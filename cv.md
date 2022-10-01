@@ -1,19 +1,16 @@
 # Nikita Shutov
-======================
+***********
 ### Frontend-developer
 ------
-============
-***********
 ### Contacts for communication
-##### **phone:** +375(44)754-01-72
-##### **email:** nikitka.shutov@bk.ru
-##### *skype:* nikita_virus
-##### *telegram:* @Thenikshu
-##### *Linkedin* Nikita Shutov
+##### **Phone:** +375(44)754-01-72
+##### **Email:** nikitka.shutov@bk.ru
+##### **Skype:** nikita_virus
+##### **Telegram:** @Thenikshu
+##### **Linkedin** Nikita Shutov
 ---
 ### Briefly About Myself:
 My career started in 2019 in software testing, but I had ideas about website layout, I started doing it on my own, I liked it, and so I decided to go into it more deeply.
-
 
 I began to find a lot of material to study, I constantly learn new things, read and make websites, it seems to me that my desire helps me in this matter.
 
