@@ -14,6 +14,129 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Myself" class="nav-link">Myself</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class=" section-profile" id="#profile">
+                <img src="/rsschool-cv/photo.png" alt="моё фото" class="section-profile-logo">
+               <div class="section-profile-title">
+                <h1 class="section-title main-title">
+                    Nikita Shutov
+                </h1>
+                <p class="section-subtitle">
+                    Junior Front-End Developer
+                </p>
+               </div> 
+                
+            </section>
+            <section class="section" id="#Contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Belarus, Gomel
+                    </li>
+                    <li class="section-item">
+                        Phone: <a href="tel:+375447540172"> +375(44)754-01-72 </a>
+                    </li>
+                    <li class="section-item">
+                        Email: <a href="nikitka.shutov@bk.ru">nikitka.shutov@bk.ru</a>
+                    </li>
+                    <li class="section-item">
+                        Telegram: <a href="">@Thenikshu</a>
+                    </li>
+                    <li class="section-item">
+                        Linkedin: <a href="">Nikita Shutov</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="#Myself">
+                <h2 class="section-title">
+                    Briefly About Myself
+                </h2>
+                <p class="section-subtitle">My career started in 2019 in software testing,
+                    but I had ideas about website
+                    layout, I started doing
+                    it on my own, I liked it, and so I decided to go into it more deeply.
+                    I began to find a lot of material to study, I constantly learn new things,
+                    read and make websites,
+                    it seems to me that my desire helps me in this matter.</p>
+            </section>
+            <section class="section" id="#Skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML5, CSS3</li>
+                    <li class="section-item">JavaScript Basics</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">VS Code, IntelliJ IDEA</li>
+                    <li class="section-item">Adobe Photoshop, Figma</li>
+                </ul>
+            </section>
+            <section class="section" id="#Code example">
+                <h2 class="section-title">Code example</h2>
+                <pre><code class="section-code">
+const tabs = document.querySelectorAll('.tabheader__item'),
+    tabsParent = document.querySelector('.tabheader__items'),
+    tabContent = document.querySelectorAll('.tabcontent');
+
+    function hideTabContent() {
+        tabContent.forEach(item => {
+            item.classList.add('hide');
+            item.classList.remove('show', 'fade');
+        });
+        tabs.forEach(item => {
+            item.classList.remove('tabheader__item_active');
+        });
+    } 
+                </code></pre>
+            </section>
+            <section class="section" id="#Courses">
+                <h2 class="section-title">
+                    Courses
+                </h2>
+                <ul class="section-list">
+                    <li class="section-item">Belarusian Trade and Economic University of Consumer Cooperation
+                        (accountant-economist)</li>
+                    <li class="section-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li class="section-item">HTML & CSS (udemy)</li>
+                </ul>
+            </section>
+            <section class="section" id="#Languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">English - Intermediate</li>
+                    <li class="section-item">Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="copiright">
+                <p class="copi">&#169 2022</p>
+                <p class="inst">nikita Shutov</p>
+                <a href="https://rs.school/js/" class="rss"></a>
+            </span>
+        </div>
+    </footer>
+
+
+
 
 </body>
 
