@@ -31,17 +31,17 @@
 
     <main class="main">
         <div class="container main-container">
-            <section class=" section-profile" id="#profile">
-                <img src="/rsschool-cv/photo.png" alt="моё фото" class="section-profile-logo">
-               <div class="section-profile-title">
-                <h1 class="section-title main-title">
-                    Nikita Shutov
-                </h1>
-                <p class="section-subtitle">
-                    Junior Front-End Developer
-                </p>
-               </div> 
-                
+            <section class="section-profile" id="#profile">
+                <img src="img/photo.png" alt="моё фото" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="main-title">
+                        Nikita Shutov
+                    </h1>
+                    <p class="section-subtitle">
+                        Junior Front-End Developer
+                    </p>
+                </div>
+
             </section>
             <section class="section" id="#Contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -68,7 +68,7 @@
                 <h2 class="section-title">
                     Briefly About Myself
                 </h2>
-                <p class="section-subtitle">My career started in 2019 in software testing,
+                <p">My career started in 2019 in software testing,
                     but I had ideas about website
                     layout, I started doing
                     it on my own, I liked it, and so I decided to go into it more deeply.
@@ -79,29 +79,19 @@
             <section class="section" id="#Skills">
                 <h2 class="section-title">Skills</h2>
                 <ul class="section-list">
-                    <li class="section-item">HTML5, CSS3</li>
-                    <li class="section-item">JavaScript Basics</li>
-                    <li class="section-item">Git, GitHub</li>
-                    <li class="section-item">VS Code, IntelliJ IDEA</li>
-                    <li class="section-item">Adobe Photoshop, Figma</li>
+                    <li class="section-item">Web-development:<span> HTML5, CSS3, JavaScript</span></li>
+                    <li class="section-item">Version control: <span>Git, GitHub</span></li>
+                    <li class="section-item">Graphics: <span>Adobe Photoshop, Figma</span></li>
                 </ul>
             </section>
             <section class="section" id="#Code example">
                 <h2 class="section-title">Code example</h2>
                 <pre><code class="section-code">
-const tabs = document.querySelectorAll('.tabheader__item'),
-    tabsParent = document.querySelector('.tabheader__items'),
-    tabContent = document.querySelectorAll('.tabcontent');
-
-    function hideTabContent() {
-        tabContent.forEach(item => {
-            item.classList.add('hide');
-            item.classList.remove('show', 'fade');
-        });
-        tabs.forEach(item => {
-            item.classList.remove('tabheader__item_active');
-        });
-    } 
+                    function factorial(n) {
+                        if(n < 0) return null;
+                        if (n <= 1) return 1;
+                        return n * factorial(n-1);
+                      }
                 </code></pre>
             </section>
             <section class="section" id="#Courses">
@@ -109,10 +99,12 @@ const tabs = document.querySelectorAll('.tabheader__item'),
                     Courses
                 </h2>
                 <ul class="section-list">
-                    <li class="section-item">Belarusian Trade and Economic University of Consumer Cooperation
-                        (accountant-economist)</li>
-                    <li class="section-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-                    <li class="section-item">HTML & CSS (udemy)</li>
+                    <li class="section-item">University: <span>Belarusian Trade and Economic University of Consumer
+                            Cooperation
+                            (accountant-economist)</span></li>
+                    <li class="section-item">Courses: <span>RS Schools Course «JavaScript/Front-end. Stage 0» (in
+                            progress)</span></li>
+                    <li class="section-item">Udemy: <span> & CSS </span></li>
                 </ul>
             </section>
             <section class="section" id="#Languages">
@@ -126,12 +118,11 @@ const tabs = document.querySelectorAll('.tabheader__item'),
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <span class="copiright">
-                <p class="copi">&#169 2022</p>
-                <p class="inst">nikita Shutov</p>
-                <a href="https://rs.school/js/" class="rss"></a>
-            </span>
+        <div class="container footer-container">
+            <div>
+                © 2022 nikita Shutov
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
         </div>
     </footer>
 
